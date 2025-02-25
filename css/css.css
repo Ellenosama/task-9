@@ -1,0 +1,67 @@
+.demo{
+
+    min-height: 100vh;
+
+  }
+
+  body {
+
+        font-family: "Sansita Swashed", serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        background-color: #f7ecde;
+      }
+.my-h1{
+    
+    background-color: #fec260;
+    
+}
+
+.my-h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+
+
+section h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+  }
+
+  .bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ll{
+    font-family: "PT Sans Caption", sans-serif;
+  }
+  .ss{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+.nt{
+    background-color: #d1512d;
+    color: white;
+   
+}
